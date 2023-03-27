@@ -1,0 +1,351 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <link rel="bootstrapsite" href="bootstrapsite.css"/>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+   
+    <title>Bootstrap demo</title>
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  </head>
+  <body>
+  
+    <nav class="navbar col-12 fixed-top navbar-expand-lg bg-body-tertiary" style="z-index: 999;">
+        <div class="container-fluid col-11 m-auto">
+          <a class="navbar-brand" href="#">Dogue Alemão</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>   
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#Origem">Origem</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#Pelagem">Pelagem</a>
+              </li> 
+              <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#Vídeo">Vídeo</a>
+              </li>  
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#Contactos">Contactos</a>
+              </li>  
+                                                 
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <br> <br> <br>
+      
+
+      
+      <!-- carousel -->
+
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/imagens/dogue alemão1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/imagens/dogue alemão2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/imagens/dogue alemão3.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <br>
+      <br>
+      <hr>
+      <br>
+
+
+      <div id="Origem" class="col-11 m-auto">
+        
+        <h2 class="text-center">Origem</h2>
+
+        <p class="text-center">Raça descendente dos cães molossos da antiga Roma.</p>
+        <p class="text-center">Com ascendêcia nas raças English Mastiff e Irish Wolfhound (Galgo Irlandês), o Dogue Alemão tem origem alemã.</p>
+        <p class="text-center">Inicialmente eram usados como cães de caça ao javali, usando as orelhas cortadas, para reduzir os traumas e as mordidas durante a caça.</p>
+        <p class="text-center">Trata-se de uma raça com fama a nível de filmes e séries, sendo representada pelas famosas personagens Marmaduke e Scooby-Doo.</p>
+
+      </div>
+
+      <br>
+
+      <hr>
+
+
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="/imagens/saúde_icon.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Saúde</h5>              
+            </div>
+            <div class="card-footer">
+            
+
+              <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Saude">
+  Ver mais
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="Saude" tabindex="-1" aria-labelledby="SaudeLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="SaudeLabel">Saúde</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        A raça tende a estar predisposta a algumas doenças, tais como:
+      
+        <ol>
+          <li><u> displasia da anca e cotovelos, devido ao tamanho que atinge; </u></li>
+          <li><u> tumores ósseos (como osteossarcoma); </u></li>
+          <li><u> problemas cardíacos, nomeadamente cardiopatia; </u></li>
+          <li><u> torção gástrica (o estômago fica voltado ao contrário), para se prevenir o cão deve ser alimentado após o passeio ou a atividade física. </u></li>
+      </ol>
+       
+        Como tal há sempre que ter em atenção ao histórico clínico dos progenitores.
+        <br>
+        Aconselha-se uma dieta cpm adição de glucosamina e condroitina, para dar apoio às articulações.
+        <br>
+        É uma raça que não tem grande longevidade, tendem assim a envelhecer mais rápio, sendo considerados séniores por volta dos sete anos.
+      
+      </div>
+    </div>
+  </div>
+</div>
+
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="col">
+          <div class="card h-100">
+            <img src="/imagens/coleira_icon.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Feitio</h5>
+            </div>
+            <div class="card-footer">
+             
+  
+
+ <!-- Button trigger modal -->
+ <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Feitio">
+  Ver mais
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="Feitio" tabindex="-1" aria-labelledby="FeitioLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="FeitioLabel">Feitio</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        É uma raça que adora companhia, muito ligada aos donos, sendo leal e muito afetiva.
+        <br>
+        Pode também ser um cão reservado, tímido e com um bom instinto de cão de guarda.
+        <br>
+        É um animal inteligente, porém pode ser muito teimoso, devendo assim ser ensinado através da estimulação e da brincadeira.
+        <br>
+        Raça sociavel, adequada a qualquer idade, desde que ensinada, calma e gentil, com autoconfiança.      
+      </div>
+    </div>
+  </div>
+</div>
+              
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+        <div class="col">
+          <div class="card h-100">
+            <img src="/imagens/dogue alemão_icon.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Caraterísticas</h5>
+             </div>
+            <div class="card-footer">
+
+              <!-- Button trigger modal -->
+ <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Carateristicas">
+  Ver mais
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="Carateristicas" tabindex="-1" aria-labelledby="CarateristicasLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="CarateristicasLabel">Caraterísticas</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+
+
+        <ul>
+          <li> Tamanho: fêmea 71 a 81cm; macho 76 a 86cm; </li>
+          <li> Peso: fêmea 45 a 59kg; macho 54 a 90kg;</li>
+          <li> Expectativa de vida: 8 a 10anos.</li>
+      </ul>   
+      </div>
+    </div>
+  </div>
+</div>
+       
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <br>
+      <br>
+      
+
+      <hr>
+      <br>
+      <div>
+      <div class="col-11 m-auto">
+
+        <h2 id="Pelagem" class="text-center">Pelagem</h2>
+
+        <p class="text-center">
+        Dogue Alemão é uma raça com pelagem curta, elegante e densa.    
+        <br>
+
+          <table class="table">
+            <thead>
+              <tr>       
+                <th scope="col">Cor</th>
+                <th scope="col">Nariz</th>
+                
+              </tr>
+            </thead>
+            <tbody class="table-group-divider">
+              <tr>
+                <td>Preta</td>
+                <td>Preto</td>
+              </tr>
+              <tr>
+                <td>Amarela</td>
+                <td>Preto</td>
+              </tr>
+              <tr>
+                <td>Azul</td>
+                <td>Preto</td>
+              </tr>
+              <tr>
+                <td>Arlequim</td>
+                <td>Preto/Cor de pele</td>
+              </tr>
+            </tbody>
+          </table>
+
+      </p>
+
+      </div>
+
+      <br>
+      <div id="Vídeo">
+      <p class="text-center">
+      <video src="imagens/dogue alemão.mp4" class="object-fit-contain" autoplay></video>
+      </p>
+      </div>
+      <br>
+
+
+<hr>
+
+<!--Section: Contact v.2-->
+<section id= "contact" class="py-5">
+  <h2 class="h1-responsive font-weight-bold text-center my-4">Para mais informação</h2>
+<div class="row justify-content-md-center">
+<div class="col-md-6 mb-md-0 mb-4">
+
+  <form class="input-group">
+        <input type="text" class="form-control form-control-lg" placeholder="Email" aria-label="Email" aria-describedby="basic-addon2">
+        <div class="input-group-append">
+          <button class="btn btn-outline-light btn-lg" type="button" style="color: black;">Enviar</button>
+        </div>
+      </form>
+
+
+    <div class="form-group">
+   <label for="exampleFormControlTextarea1"></label>
+   <textarea class="form-control"
+
+   id="exampleFormControlTextarea1" rows="3"></textarea>
+ </div>
+
+
+    </div>
+    </div>
+
+</section>
+
+
+
+
+
+      <!-- contactos -->
+      <footer class="page-footer font-small blue pt-4">
+
+        <div id="Contactos"class="container-fluid py-2 px-3 icon-top">
+                <div class="row">
+                  <div class="col d-flex justify-content-between align-items-baseline">
+                    <div class="top-icons">
+                      <a href="https://www.instagram.com/marianagmd/" class="mx-2"><i class="fab fa-instagram" style="font-size: 50px; color: black;"></i></a>
+                      <a href="https://www.facebook.com/marianagmd" class="mx-2"><i class="fab fa-facebook" style="font-size: 50px; color: black;"></i></a>
+                      <a href="https://www.linkedin.com/in/mariana-david-b2b1b6241/" class="mx-2"><i class="fab fa-linkedin" style="font-size: 50px; color: black;"></i></a>
+                     </div>
+                    <h5 class="text-capitalize">Mariana David</h5>
+                  </div>
+                </div>
+              </div>
+        
+        </footer>
+
+
+
+    
+      
+   
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </body>
+</html>
